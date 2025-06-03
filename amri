@@ -2,71 +2,76 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Perusahaan ABC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Keren Amri</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f0f2f5, #d9e4f5);
       color: #333;
     }
+
     header {
       background-color: #007BFF;
-      color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
-    }
-    nav {
-      background: #333;
       color: white;
-      padding: 10px;
-      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
     }
+
+    p.tagline {
+      font-style: italic;
+      font-size: 18px;
+    }
+
     .container {
       padding: 20px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-    footer {
-      background: #222;
-      color: white;
-      padding: 15px;
       text-align: center;
+    }
+
+    .btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    img {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Selamat Datang di Perusahaan ABC</h1>
-    <p>Kami adalah solusi bisnis masa depan Anda</p>
+    <h1>Halo, Saya Amri!</h1>
+    <p class="tagline">Selamat datang di website saya 🎉</p>
   </header>
 
-  <nav>
-    <a href="#">Beranda</a>
-    <a href="#">Tentang</a>
-    <a href="#">Layanan</a>
-    <a href="#">Kontak</a>
-  </nav>
-
   <div class="container">
-    <h2>Tentang Kami</h2>
-    <p>Perusahaan ABC bergerak di bidang teknologi dan konsultasi bisnis.</p>
-    <img src="https://source.unsplash.com/800x400/?office,technology" alt="Gambar kantor perusahaan">
+    <p>Saya sedang belajar bikin website pakai GitHub Pages dan HTML!</p>
+    <img src="https://source.unsplash.com/random/400x300" alt="Gambar keren">
+    <br />
+    <button class="btn" onclick="alert('Semangat terus belajar coding ya!')">Klik Aku 😎</button>
   </div>
-
-  <footer>
-    <p>&copy; 2025 Perusahaan ABC. Semua Hak Dilindungi.</p>
-  </footer>
 
 </body>
 </html
